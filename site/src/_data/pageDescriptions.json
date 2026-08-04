@@ -1,0 +1,6 @@
+{
+  "Approach": "Learn how Quicklink detects in-viewport links, waits for browser idle time, and safely prefetches subsequent navigations.",
+  "API": "Reference Quicklink's listen, prefetch, and prerender APIs, options, browser support, and common integration recipes.",
+  "Demo": "Compare Quicklink demos for multi-page and single-page applications and inspect how prefetching improves navigation performance.",
+  "Measure": "Measure Quicklink's impact with Chrome DevTools, WebPageTest, real-user monitoring, and before-and-after performance comparisons."
+}
