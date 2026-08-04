@@ -1,8 +1,9 @@
+{% set metaDescription = pageDescriptions[title] or description -%}
 <head>
   <meta charset="utf-8">
   <title>{{ title + " | " + site.title if title else site.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="{{ description }}">
+  <meta name="description" content="{{ metaDescription }}">
   <meta name="generator" content="{{ eleventy.generator }}">
 
   {{ extra_head | safe }}
